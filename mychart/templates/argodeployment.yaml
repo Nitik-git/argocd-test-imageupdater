@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nitikjumbo/my_repo:v8
+        image: us-east1-docker.pkg.dev/task-project-374915/argotestrepo/image_my_repo:r1
         ports:
         - containerPort: 80
   
