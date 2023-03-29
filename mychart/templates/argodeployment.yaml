@@ -14,11 +14,11 @@ spec:
       labels:
         app: nginx
     spec:
+      imagePullSecrets:
+      - name: artifact-registry
       containers:
       - name: nginx
         image: us-east1-docker.pkg.dev/task-project-374915/argotestrepo/image_my_repo:r1
-      imagePullSecrets:
-      - name: artifact-registry
         ports:
         - containerPort: 80
   
