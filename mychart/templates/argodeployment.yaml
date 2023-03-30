@@ -18,7 +18,7 @@ spec:
       - name: artifact-registry
       containers:
       - name: nginx
-        image: us-east1-docker.pkg.dev/task-project-374915/argotestrepo/image_my_repo:c1.0
+        image: {{ .Values.image.name }}:{{ .Values.image.tag }}
         ports:
         - containerPort: 80
   
