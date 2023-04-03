@@ -4,4 +4,6 @@
 
 replicaCount: 3
 
-imagename: nginx
+image:
+  name: us-east1-docker.pkg.dev/task-project-374915/repoforargo/nginxargo
+  tag: c1.1
