@@ -4,6 +4,4 @@
 
 replicaCount: 3
 
-image:
-  name: us-east1-docker.pkg.dev/task-project-374915/argotestrepo/image_my_repo
-  tag: c1.1
+imagename: nginx
