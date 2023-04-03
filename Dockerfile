@@ -1,2 +1,2 @@
 FROM nginx
-RUN pwd
+RUN mkdir -p /home/maven
