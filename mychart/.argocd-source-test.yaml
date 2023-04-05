@@ -4,5 +4,5 @@ helm:
     value: us-east1-docker.pkg.dev/task-project-374915/repoforargo/nginxargo
     forcestring: true
   - name: image.tag
-    value: c1.3
+    value: c1.4
     forcestring: true
